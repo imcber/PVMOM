@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://Ws/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="WsPapeleria" targetNamespace="http://Ws/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/WSSoapPape/WsPapeleria?xsd=1" namespace="http://Ws/" />
+    </xsd:schema>
+  </types>
+  <message name="Alta">
+    <part name="parameters" element="tns:Alta" />
+  </message>
+  <message name="AltaResponse">
+    <part name="parameters" element="tns:AltaResponse" />
+  </message>
+  <message name="Exception">
+    <part name="fault" element="tns:Exception" />
+  </message>
+  <message name="Baja">
+    <part name="parameters" element="tns:Baja" />
+  </message>
+  <message name="BajaResponse">
+    <part name="parameters" element="tns:BajaResponse" />
+  </message>
+  <message name="Modificacion">
+    <part name="parameters" element="tns:Modificacion" />
+  </message>
+  <message name="ModificacionResponse">
+    <part name="parameters" element="tns:ModificacionResponse" />
+  </message>
+  <portType name="WsPapeleria">
+    <operation name="Alta">
+      <input wsam:Action="http://Ws/WsPapeleria/AltaRequest" message="tns:Alta" />
+      <output wsam:Action="http://Ws/WsPapeleria/AltaResponse" message="tns:AltaResponse" />
+      <fault wsam:Action="http://Ws/WsPapeleria/Alta/Fault/Exception" name="Exception" message="tns:Exception" />
+    </operation>
+    <operation name="Baja">
+      <input wsam:Action="http://Ws/WsPapeleria/BajaRequest" message="tns:Baja" />
+      <output wsam:Action="http://Ws/WsPapeleria/BajaResponse" message="tns:BajaResponse" />
+      <fault wsam:Action="http://Ws/WsPapeleria/Baja/Fault/Exception" name="Exception" message="tns:Exception" />
+    </operation>
+    <operation name="Modificacion">
+      <input wsam:Action="http://Ws/WsPapeleria/ModificacionRequest" message="tns:Modificacion" />
+      <output wsam:Action="http://Ws/WsPapeleria/ModificacionResponse" message="tns:ModificacionResponse" />
+      <fault wsam:Action="http://Ws/WsPapeleria/Modificacion/Fault/Exception" name="Exception" message="tns:Exception" />
+    </operation>
+  </portType>
+  <binding name="WsPapeleriaPortBinding" type="tns:WsPapeleria">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="Alta">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </fault>
+    </operation>
+    <operation name="Baja">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </fault>
+    </operation>
+    <operation name="Modificacion">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="WsPapeleria">
+    <port name="WsPapeleriaPort" binding="tns:WsPapeleriaPortBinding">
+      <soap:address location="http://localhost:8080/WSSoapPape/WsPapeleria" />
+    </port>
+  </service>
+</definitions>

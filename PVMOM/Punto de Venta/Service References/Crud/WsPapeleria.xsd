@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://Ws/" targetNamespace="http://Ws/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Alta" type="tns:Alta" />
+  <xs:element name="AltaResponse" type="tns:AltaResponse" />
+  <xs:element name="Baja" type="tns:Baja" />
+  <xs:element name="BajaResponse" type="tns:BajaResponse" />
+  <xs:element name="Exception" type="tns:Exception" />
+  <xs:element name="Modificacion" type="tns:Modificacion" />
+  <xs:element name="ModificacionResponse" type="tns:ModificacionResponse" />
+  <xs:complexType name="Modificacion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="producto" type="xs:string" />
+      <xs:element name="cantidad" type="xs:int" />
+      <xs:element name="precio" type="xs:double" />
+      <xs:element name="idProducto" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ModificacionResponse">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="Exception">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Baja">
+    <xs:sequence>
+      <xs:element name="idProducto" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="BajaResponse">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="Alta">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="codigo" type="xs:string" />
+      <xs:element minOccurs="0" name="producto" type="xs:string" />
+      <xs:element name="cantidad" type="xs:int" />
+      <xs:element name="precio" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AltaResponse">
+    <xs:sequence />
+  </xs:complexType>
+</xs:schema>

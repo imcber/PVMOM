@@ -1,0 +1,84 @@
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\bin\Debug\Punto de Venta.exe.config
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\bin\Debug\Punto de Venta.exe.manifest
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\bin\Debug\Punto de Venta.application
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\bin\Debug\Punto de Venta.exe
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\bin\Debug\Punto de Venta.pdb
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\bin\Debug\MySql.Data.dll
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\bin\Debug\MySql.Data.xml
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\obj\Debug\Punto_de_Venta.Cobrar.resources
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\obj\Debug\Punto_de_Venta.PuntoDeVenta.resources
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\obj\Debug\Punto_de_Venta.Properties.Resources.resources
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\obj\Debug\Punto de Venta.csproj.GenerateResource.Cache
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\obj\Debug\Punto de Venta.exe.manifest
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\obj\Debug\Punto de Venta.application
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\obj\Debug\Punto de Venta.exe
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\obj\Debug\Punto de Venta.pdb
+F:\Documentos\Punto de venta Maxy\Punto de Venta\Punto de Venta\obj\Debug\Punto de Venta.csprojResolveAssemblyReference.cache
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\obj\Debug\Punto de Venta.csprojResolveAssemblyReference.cache
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\obj\Debug\Punto_de_Venta.Cobrar.resources
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\obj\Debug\Punto_de_Venta.PuntoDeVenta.resources
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\obj\Debug\Punto_de_Venta.Properties.Resources.resources
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\obj\Debug\Punto de Venta.csproj.GenerateResource.Cache
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\bin\Debug\Punto de Venta.exe.config
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\bin\Debug\Punto de Venta.exe.manifest
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\bin\Debug\Punto de Venta.application
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\bin\Debug\Punto de Venta.exe
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\bin\Debug\Punto de Venta.pdb
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\bin\Debug\itextsharp.dll
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\bin\Debug\itextsharp.pdfa.dll
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\bin\Debug\itextsharp.xtra.dll
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\bin\Debug\itextsharp.xml
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\obj\Debug\Punto de Venta.exe.manifest
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\obj\Debug\Punto de Venta.application
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\obj\Debug\Punto de Venta.exe
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\obj\Debug\Punto de Venta.pdb
+C:\Users\EKATL\Desktop\Punto de Venta\Punto de Venta\obj\Debug\Punto_de_Venta.Ventas.resources
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\bin\Debug\Punto de Venta.exe.config
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\bin\Debug\Punto de Venta.exe.manifest
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\bin\Debug\Punto de Venta.application
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\bin\Debug\Punto de Venta.exe
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\bin\Debug\Punto de Venta.pdb
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\bin\Debug\itextsharp.dll
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\bin\Debug\itextsharp.pdfa.dll
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\bin\Debug\itextsharp.xtra.dll
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\bin\Debug\Newtonsoft.Json.dll
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\bin\Debug\itextsharp.xml
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\bin\Debug\Newtonsoft.Json.xml
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto_de_Venta.Cobrar.resources
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto_de_Venta.PuntoDeVenta.resources
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto_de_Venta.Producto.resources
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto_de_Venta.Properties.Resources.resources
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto_de_Venta.Ventas.resources
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto de Venta.csproj.GenerateResource.Cache
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto de Venta.exe.manifest
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto de Venta.application
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto de Venta.exe
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto de Venta.pdb
+C:\Users\EKATL\Documents\Visual Studio 2013\Projects\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto de Venta.csprojResolveAssemblyReference.cache
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto de Venta.csprojResolveAssemblyReference.cache
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto_de_Venta.Cobrar.resources
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto_de_Venta.PuntoDeVenta.resources
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto_de_Venta.Producto.resources
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto_de_Venta.Properties.Resources.resources
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto_de_Venta.Ventas.resources
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto de Venta.csproj.GenerateResource.Cache
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto de Venta.csproj.CoreCompileInputs.cache
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto de Venta.exe
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto de Venta.pdb
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\bin\Debug\Punto de Venta.exe.config
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\bin\Debug\Punto de Venta.exe.manifest
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\bin\Debug\Punto de Venta.application
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\bin\Debug\Punto de Venta.exe
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\bin\Debug\Punto de Venta.pdb
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\bin\Debug\itextsharp.dll
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\bin\Debug\itextsharp.pdfa.dll
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\bin\Debug\itextsharp.xtra.dll
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\bin\Debug\Newtonsoft.Json.dll
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\bin\Debug\itextsharp.xml
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\bin\Debug\Newtonsoft.Json.xml
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto de Venta.exe.manifest
+C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto de Venta.application
