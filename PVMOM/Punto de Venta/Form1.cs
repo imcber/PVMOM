@@ -108,10 +108,11 @@ namespace Punto_de_Venta
                 dgProducto.DataSource = con.busquedaM(txtNombreP.Text);
                 dgProducto.Columns.Remove("codigo");
                 //dgProducto.Columns.Remove("cantidad");
-                dgProducto.Columns.Remove("idproducto");
-                dgProducto.Columns[0].Width = 200;
-                dgProducto.Columns[1].Width = 50;
+                //dgProducto.Columns.Remove("idproducto");
+                dgProducto.Columns[0].Width = 50;
+                dgProducto.Columns[1].Width = 200;
                 dgProducto.Columns[2].Width = 50;
+                dgProducto.Columns[3].Width = 50;
             }
             catch (Exception es)
             {
@@ -124,18 +125,27 @@ namespace Punto_de_Venta
         {
             List<string> producto = new List<string>();
             string n = "0";
-            producto = con.busqueda(dgProducto.CurrentCell.Value.ToString(), false);
+            //dgProducto.CurrentRow.Cells[]
+            producto = con.busqueda(dgProducto.CurrentRow.Cells[0].Value.ToString(), false);
             if (producto.Count() > 0)
             {
-                n = Microsoft.VisualBasic.Interaction.InputBox("Cantidad de " + producto[1], "Producto", "1", 0, 0);
-
-                if (n.Length > 0 && isValid(n))
+                if (!producto[2].Equals("ERROR"))
                 {
-                    producto.Add(n.ToString());
-                    productoV.Add(producto);
-                    pintaGrid();
+                    n = Microsoft.VisualBasic.Interaction.InputBox("Cantidad de " + producto[1], "Producto", "1", 0, 0);
+
+                    if (n.Length > 0 && isValid(n))
+                    {
+                        producto.Add(n.ToString());
+                        productoV.Add(producto);
+                        pintaGrid();
+                    }
+                    txtNombreP.Clear();
                 }
-                txtNombreP.Clear();
+                else
+                {
+                    MessageBox.Show("ERROR EN EL PRODUCTO.");
+                }
+
             }
         }
 
@@ -312,15 +322,22 @@ namespace Punto_de_Venta
                 producto = con.busqueda(dgProducto.Rows[0].Cells[0].Value.ToString(), false);
                 if (producto.Count() > 0)
                 {
-                    n = Microsoft.VisualBasic.Interaction.InputBox("Cantidad de " + producto[1], "Producto", "1", 0, 0);
-
-                    if (n.Length > 0 && isValid(n))
+                    if (!producto[2].Equals("ERROR"))
                     {
-                        producto.Add(n.ToString());
-                        productoV.Add(producto);
-                        pintaGrid();
+                        n = Microsoft.VisualBasic.Interaction.InputBox("Cantidad de " + producto[1], "Producto", "1", 0, 0);
+
+                        if (n.Length > 0 && isValid(n))
+                        {
+                            producto.Add(n.ToString());
+                            productoV.Add(producto);
+                            pintaGrid();
+                        }
+                        txtNombreP.Clear();
                     }
-                    txtNombreP.Clear();
+                    else
+                    {
+                        MessageBox.Show("ERROR EN EL PRODUCTO.");
+                    }
                 }
             }
             return true;

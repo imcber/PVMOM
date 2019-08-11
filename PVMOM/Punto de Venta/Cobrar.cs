@@ -24,6 +24,7 @@ namespace Punto_de_Venta
         PuntoDeVenta fr = new PuntoDeVenta();
         bool descuento = false;
         List<List<string>> ventas = new List<List<string>>();
+        double dGlobal = 0;
         public Cobrar()
         {
             fr.Owner = this;
@@ -127,7 +128,7 @@ namespace Punto_de_Venta
 
         private void crearTicket(double totalH)
         {
-            float myWidth = 300f;
+            float myWidth = 500f;
             float myHeight = 600f;
             var pgSize = new iTextSharp.text.Rectangle(myWidth, myHeight);
             var doc = new iTextSharp.text.Document(pgSize,5,0,5,0);
@@ -136,19 +137,21 @@ namespace Punto_de_Venta
             doc.AddTitle("Ticket Compra");
             doc.Open();
             iTextSharp.text.Font _standardFont = new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 8, iTextSharp.text.Font.NORMAL, BaseColor.BLACK);
-            doc.Add(new Paragraph("Papeleria Maxy"));
+            doc.Add(new Paragraph("Maxy Papeleria"));
 
             //agregando una imagen
-            iTextSharp.text.Image imagen = iTextSharp.text.Image.GetInstance(@"C:\Ticket\logo.png");
+            /*iTextSharp.text.Image imagen = iTextSharp.text.Image.GetInstance(@"C:\Ticket\logo.png");
             imagen.BorderWidth = 0;
             imagen.Alignment = Element.ALIGN_RIGHT;
             float percentage = 0.0f;
             percentage = 150 / imagen.Width;
-            imagen.ScalePercent(percentage * 100);
+            imagen.ScalePercent(percentage * 100);*/
 
-            doc.Add(new Paragraph("Ticket de compra"));
+            doc.Add(new Paragraph("Nota de Venta"));
             doc.Add(new Paragraph(DateTime.Now.ToString("G")));
-            PdfPTable tblPrueba = new PdfPTable(3);
+            doc.Add(new Paragraph("\n"));
+
+            PdfPTable tblPrueba = new PdfPTable(4);
             tblPrueba.WidthPercentage = 100;
 
             PdfPCell clProducto = new PdfPCell(new Phrase("Producto", _standardFont));
@@ -159,13 +162,18 @@ namespace Punto_de_Venta
             clCantidad.BorderWidth = 0;
             clCantidad.BorderWidthBottom = 0.5f;
 
-            PdfPCell clPrecio = new PdfPCell(new Phrase("Precio", _standardFont));
+            PdfPCell clPrecio = new PdfPCell(new Phrase("Precio/U", _standardFont));
             clPrecio.BorderWidth = 0;
-            clPrecio.BorderWidthBottom = 1.5f;
+            clPrecio.BorderWidthBottom = 0.5f;
+
+            PdfPCell clPrecioT = new PdfPCell(new Phrase("Precio Total", _standardFont));
+            clPrecioT.BorderWidth = 0;
+            clPrecioT.BorderWidthBottom = 0.5f;
 
             tblPrueba.AddCell(clProducto);
             tblPrueba.AddCell(clCantidad);
             tblPrueba.AddCell(clPrecio);
+            tblPrueba.AddCell(clPrecioT);
 
             for (int i = 0; i < ventas.Count(); i++)
             {
@@ -178,13 +186,28 @@ namespace Punto_de_Venta
                 clPrecio = new PdfPCell(new Phrase(ventas[i][2], _standardFont));
                 clPrecio.BorderWidth = 0;
 
+                String precioTotal = "$ " +(double.Parse(ventas[i][2]) * double.Parse(ventas[i][5])).ToString();
+                clPrecioT = new PdfPCell(new Phrase(precioTotal, _standardFont));
+                clPrecioT.BorderWidth = 0;
+
                 tblPrueba.AddCell(clProducto);
                 tblPrueba.AddCell(clCantidad);
                 tblPrueba.AddCell(clPrecio);
+                tblPrueba.AddCell(clPrecioT);
             }
             doc.Add(tblPrueba);
 
-            doc.Add(new Paragraph("Total: " + totalH));
+            doc.Add(new Paragraph("\n"));
+            if (descuento)
+            {
+                doc.Add(new Paragraph("Total de Compra: " + total));
+                doc.Add(new Paragraph("Descuento: " + dGlobal));
+                doc.Add(new Paragraph("Total: " + totalH));
+            }
+            else
+            {
+                doc.Add(new Paragraph("Total: " + totalH));
+            }
 
             doc.Close();
             writer.Close();
@@ -210,6 +233,7 @@ namespace Punto_de_Venta
             d = 100 - d;
             d = d * .01;
             totalD = total * d;
+            dGlobal = total - totalD;
             lbTotalDescuento.Text ="" + totalD;
 
             lbDescuento.Visible = true;

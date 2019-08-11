@@ -82,3 +82,28 @@ C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\bin\Debug\Newtonsof
 C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto de Venta.exe.manifest
 C:\Users\imcbe\Desktop\Punto de Venta - copia\Punto de Venta\obj\Debug\Punto de Venta.application
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\bin\Debug\Punto de Venta.exe.config
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\bin\Debug\Punto de Venta.exe.manifest
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\bin\Debug\Punto de Venta.application
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\bin\Debug\Punto de Venta.exe
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\bin\Debug\Punto de Venta.pdb
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\bin\Debug\itextsharp.dll
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\bin\Debug\itextsharp.pdfa.dll
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\bin\Debug\itextsharp.xtra.dll
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\bin\Debug\Newtonsoft.Json.dll
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\bin\Debug\itextsharp.xml
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\bin\Debug\Newtonsoft.Json.xml
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\obj\Debug\Punto de Venta.csprojResolveAssemblyReference.cache
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\obj\Debug\Punto_de_Venta.Cobrar.resources
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\obj\Debug\Punto_de_Venta.PuntoDeVenta.resources
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\obj\Debug\Punto_de_Venta.Producto.resources
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\obj\Debug\Punto_de_Venta.Properties.Resources.resources
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\obj\Debug\Punto_de_Venta.Ventas.resources
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\obj\Debug\Punto de Venta.csproj.GenerateResource.Cache
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\obj\Debug\Punto de Venta.csproj.CoreCompileInputs.cache
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\obj\Debug\Punto de Venta.exe.manifest
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\obj\Debug\Punto de Venta.application
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\obj\Debug\Punto de Venta.exe
+C:\Users\imcbe\Desktop\PVMOM\PVMOM\Punto de Venta\obj\Debug\Punto de Venta.pdb

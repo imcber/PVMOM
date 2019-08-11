@@ -14,7 +14,7 @@ namespace Punto_de_Venta
         MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder();
         
         public void conection() {
-            builder.Server = "192.168.100.188";
+            builder.Server = "192.168.100.33";
             builder.UserID = "root";
             builder.Password = "";
             builder.Database = "papeleriamaxy";
@@ -51,19 +51,19 @@ namespace Punto_de_Venta
                 if (band)
                     cmd.CommandText = "SELECT * FROM producto where codigo like '%" + codigo + "%'";
                 else
-                    cmd.CommandText = "SELECT * FROM producto where producto like '%" + codigo + "%'";
+                    cmd.CommandText = "SELECT * FROM producto where idproducto = '" + codigo + "'";
 
                 conn.Open();
                 reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    producto.Add(reader.GetString("codigo"));//0
-                    producto.Add(reader.GetString("producto"));//1
-                    producto.Add(reader.GetString("precio"));//2
-                    producto.Add(reader.GetString("idproducto"));//3
-                    producto.Add(reader.GetString("cantidad"));//3
-
-                    if (codigo == producto[0])
+                    producto = new List<string>();
+                    producto.Add(!reader.IsDBNull(1) ? reader.GetString("codigo") : "");//0
+                    producto.Add(!reader.IsDBNull(2) ? reader.GetString("producto") : "");//1
+                    producto.Add(!reader.IsDBNull(3) ? reader.GetString("precio") : "ERROR");//2
+                    producto.Add(!reader.IsDBNull(0) ? reader.GetString("idproducto") : "");//3
+                    producto.Add(!reader.IsDBNull(4) ? reader.GetString("cantidad") : "");//4
+                if (codigo == producto[0])
                     {
                         break;
                     }

@@ -73,9 +73,9 @@ namespace Punto_de_Venta
                 dgBaja.Columns.Remove("codigo");
                 dgBaja.Columns.Remove("precio");
                 dgBaja.Columns.Remove("cantidad");
-                dgBaja.Columns.Remove("idproducto");
                 //dgBaja.Columns.RemoveAt(this.dgBaja.Rows[1].Index);
-                dgBaja.Columns[0].Width = 300;
+                dgBaja.Columns[0].Width = 50;
+                dgBaja.Columns[1].Width = 300;
             }
             catch (Exception es)
             {
@@ -85,7 +85,7 @@ namespace Punto_de_Venta
 
         private void dgBaja_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            producto = con.busqueda(dgBaja.CurrentCell.Value.ToString(), false);
+            producto = con.busqueda(dgBaja.CurrentRow.Cells[0].Value.ToString(), false);
             if (producto.Count() > 0)
                 idProducto = int.Parse(producto[3]);
         }
@@ -144,9 +144,9 @@ namespace Punto_de_Venta
                 dgModificacion.Columns.Remove("codigo");
                 dgModificacion.Columns.Remove("precio");
                 dgModificacion.Columns.Remove("cantidad");
-                dgModificacion.Columns.Remove("idproducto");
                 //dgBaja.Columns.RemoveAt(this.dgBaja.Rows[1].Index);
-                dgModificacion.Columns[0].Width = 300;
+                dgModificacion.Columns[0].Width = 50;
+                dgModificacion.Columns[1].Width = 300;
             }
             catch (Exception es)
             {
@@ -156,7 +156,7 @@ namespace Punto_de_Venta
 
         private void dgModificacion_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            producto = con.busqueda(dgModificacion.CurrentCell.Value.ToString(), false);
+            producto = con.busqueda(dgModificacion.CurrentRow.Cells[0].Value.ToString(), false);
             if (producto.Count() > 0)
                 idProducto = int.Parse(producto[3]);
         }
